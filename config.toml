@@ -1,0 +1,10 @@
+[server]
+# 大容量ファイルアップロード対応
+maxUploadSize = 2048
+headless = true
+port = 8501
+enableCORS = false
+enableXsrfProtection = false
+
+[browser]
+gatherUsageStats = false

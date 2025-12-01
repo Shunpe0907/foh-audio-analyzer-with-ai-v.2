@@ -1,0 +1,33 @@
+========================================
+     PA Audio Analyzer 超簡単版
+     楽器分離AI + 大容量対応！
+========================================
+
+基本インストール:
+
+  pip install streamlit numpy scipy matplotlib librosa soundfile
+
+楽器分離AI（オプション）:
+
+  pip install torch torchaudio demucs
+
+起動:
+
+  streamlit run pa_analyzer_ultra_simple.py
+
+ログイン:
+
+  admin@pa.local / admin123
+
+完了！
+
+========================================
+
+✨ 新機能:
+  - 最大2GB・2時間の音源に対応
+  - チャンク処理で長時間音源も解析可能
+  - 進捗バー表示
+
+詳細: LARGE_FILE_SUPPORT.md
+
+========================================
